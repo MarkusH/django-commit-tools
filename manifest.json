@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Django Commit Tools",
+  "description": "Plugin to simplify the participation in and committing to Django",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/django/django/pull/*"],
+      "js": ["jquery.min.js", "jquery-watch.min.js", "ghpr.js"]
+    }
+  ],
+
+  "permissions": [
+    "https://github.com/django/django/pull/"
+  ]
+}
