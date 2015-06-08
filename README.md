@@ -1,3 +1,12 @@
+# What it does
+
+* Shows a link to the trac tickets below the PR title
+* Displays the current line length in diffs in the "files" view
+
+# Usage
+
+Open a PR in a new window / tab to make the extension take effect.
+
 # Installation
 
 1. Checkout the repository
